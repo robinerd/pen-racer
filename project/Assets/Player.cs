@@ -45,6 +45,8 @@ public class Player : MonoBehaviour {
 			return;
 		}
 		
+		transform.position = transform.position + Vector3.up * Level.gridSize * playerID;
+		
 		players[playerID] = this;
 		nextPlayer = (playerID + 1) % numPlayers;
 		

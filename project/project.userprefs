@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\StartGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Player.cs">
     <Files>
-      <File FileName="Assets\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Player.cs" Line="6" Column="34" />
       <File FileName="Assets\Level.cs" Line="1" Column="1" />
       <File FileName="Assets\movetargets.cs" Line="1" Column="1" />
       <File FileName="Assets\movepos.cs" Line="1" Column="1" />
@@ -11,6 +11,7 @@
       <File FileName="Assets\AspectFix.cs" Line="1" Column="1" />
       <File FileName="Assets\HoverColor.cs" Line="1" Column="1" />
       <File FileName="Assets\StartGame.cs" Line="18" Column="23" />
+      <File FileName="Assets\Menu.cs" Line="14" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
