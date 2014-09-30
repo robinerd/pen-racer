@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 	
-	public static int numPlayers = 2;
+	public static int numPlayers = 3;
 	
 	static Player[] players = new Player[numPlayers];
 	static bool allDead = false;
