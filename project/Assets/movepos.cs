@@ -5,11 +5,6 @@ public class movepos : MonoBehaviour {
 	
 	public Player player;
 	
-	// Use this for initialization
-	void Awake () {
-		player = FindObjectOfType<Player>();
-	}
-	
 	// Update is called once per frame
 	void Update () {
 	

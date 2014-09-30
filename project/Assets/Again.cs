@@ -19,6 +19,7 @@ public class Again : MonoBehaviour {
 	
 	void OnMouseDown() {
 		Application.LoadLevel(Application.loadedLevel);
+		Player.initStatic();
 	}
 	
 	void OnMouseEnter() {
