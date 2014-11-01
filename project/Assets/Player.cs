@@ -22,8 +22,8 @@ public class Player : MonoBehaviour {
 	
 	Vector2 lastMove;
 	Transform pretrace;
-	int moves = 0;
 	int nextPlayer;
+	int moves = 0;
 	bool isDead = false;
 	bool isDefaultMove = true;
 	
@@ -153,6 +153,8 @@ public class Player : MonoBehaviour {
 				win.SetActive(true);
 				again.SetActive(true);
 				hasWinner = true;
+				Kongregate.Submit("Moves", moves);
+				Kongregate.Submit("Rounds Completed", 1);
 			}
 		}
 		

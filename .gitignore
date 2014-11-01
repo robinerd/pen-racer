@@ -19,3 +19,6 @@ sysinfo.txt
 /project/Assets/*.pidb
 /project/*.csproj
 /project/*.sln
+project/Assets/Assembly-UnityScript.pidb.meta
+project/Assembly-UnityScript.unityproj
+project/Assembly-UnityScript-vs.unityproj
